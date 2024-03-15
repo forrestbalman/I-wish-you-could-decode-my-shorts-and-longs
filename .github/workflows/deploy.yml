@@ -28,7 +28,7 @@ jobs:
 
             - name: build
               env:
-                  BASE_PATH: "/${{ github.event.repository.name }}"
+                  BASE_PATH: "/I-wish-you-could-decode-my-shorts-and-longs"
               run: |
                   npm run build
 
