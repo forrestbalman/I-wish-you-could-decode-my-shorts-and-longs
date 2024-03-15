@@ -1,0 +1,1 @@
+export const journalSentences = ["isolated", "more friends", "favorite", "jealous", "sleep", "talk to me", "lived closer", "believed in myself", "loved", "family", "work as hard", "check on me", "my body", "annoying", "anxious", "care about myself", "alone time", "ugly", "attractive", "still here"];
