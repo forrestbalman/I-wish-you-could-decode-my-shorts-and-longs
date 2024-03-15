@@ -43,22 +43,22 @@
 
     function playTexture() {
         texture1 = new Howl({
-            src: ["/texture1.mp3"],
+            src: ["/I-wish-you-could-decode-these-shorts-and-longs/texture1.mp3"],
             volume: volume,
             loop: true,
         });
         texture2 = new Howl({
-            src: ["/texture2.mp3"],
+            src: ["/I-wish-you-could-decode-these-shorts-and-longs/texture2.mp3"],
             volume: volume,
             loop: true,
         });
         texture3 = new Howl({
-            src: ["/texture3.mp3"],
+            src: ["/I-wish-you-could-decode-these-shorts-and-longs/texture3.mp3"],
             volume: volume,
             loop: true,
         });
         texture4 = new Howl({
-            src: ["/texture4.mp3"],
+            src: ["/I-wish-you-could-decode-these-shorts-and-longs/texture4.mp3"],
             volume: volume,
             loop: true,
         });
@@ -88,21 +88,21 @@
 
     function playIncidentals(number) {
         incidental1 = new Howl({
-            src: ["/incidental1.mp3"],
+            src: ["/I-wish-you-could-decode-these-shorts-and-longs/incidental1.mp3"],
             volume: volume * 0.5,
             onend: function () {
                 incidentalPlaying = false;
             },
         });
         incidental2 = new Howl({
-            src: ["/incidental2.mp3"],
+            src: ["/I-wish-you-could-decode-these-shorts-and-longs/incidental2.mp3"],
             volume: volume * 0.5,
             onend: function () {
                 incidentalPlaying = false;
             },
         });
         incidental3 = new Howl({
-            src: ["/incidental3.mp3"],
+            src: ["/I-wish-you-could-decode-these-shorts-and-longs/incidental3.mp3"],
             volume: volume * 0.5,
             onend: function () {
                 incidentalPlaying = false;
@@ -123,12 +123,12 @@
         let sound;
         if (length === "short") {
             sound = new Howl({
-                src: [`/${randomNote}.mp3`],
+                src: [`/I-wish-you-could-decode-these-shorts-and-longs/${randomNote}.mp3`],
                 volume: volume,
             });
         } else if (length === "long") {
             sound = new Howl({
-                src: [`/${randomNote}-long.mp3`],
+                src: [`/I-wish-you-could-decode-these-shorts-and-longs/${randomNote}-long.mp3`],
                 volume: volume,
             });
         }
