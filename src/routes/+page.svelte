@@ -124,12 +124,12 @@
         if (length === "short") {
             sound = new Howl({
                 src: [`/I-wish-you-could-decode-my-shorts-and-longs/${randomNote}.mp3`],
-                volume: volume,
+                volume: volume * 0.25,
             });
         } else if (length === "long") {
             sound = new Howl({
                 src: [`/I-wish-you-could-decode-my-shorts-and-longs/${randomNote}-long.mp3`],
-                volume: volume,
+                volume: volume * 0.25,
             });
         }
         sound.play();
